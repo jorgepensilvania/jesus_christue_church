@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(227, 255, 182);
+}
+img{
+    max-width: 40%;
+    border: 5px solid;
+    float: left;
+    background-image: linear-gradient(to left, purple, blueviolet, purple);
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.vamp{
+    float: right;
+}
+p{
+    font-size: 24px;
+    margin: 0 30px 0 30px;
+    text-align: justify;
+}
+h2{
+    margin: 30px 30px 10px 30px;
+}

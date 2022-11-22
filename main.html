@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="pedia.html">História</a></li>
+                <li><a href="player.html">Música</a></li>
+                <li><a href="sitefoda.html">Terrenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>
+                Agora que você é um afortunado tueísta, você pode desfrutar de milhares de vantagens:
+            </h1>
+            <article>
+                <p>
+                    Como comprar um terreno no céu, para aproveitar ao máximo tanto a vida quanto a morte:
+                </p>
+                <a href="sitefoda.html">
+                    <img src="img/ceu-azul-nuvens-0319-1400x800.jpg" alt="nuve"></a>
+            </article>
+            <hr>
+            <article>
+                <p>
+                    Ou escutar um tuezinho
+                </p><a href="player.html">
+                    <img src="img/historia-da-musica0.jpg" alt="lal "></a>
+            </article>
+            <hr>
+            <article>
+                <p>
+                    Ou pode se aprofundar na história do nosso deus</p><a href="pedia.html">
+                    <img src="img/deuses_gregos_widelg.jpg" alt="deus"></a>
+            </article>
+            <hr>
+            <article>
+                <p>
+                    Realmente possibilidades infinitas !!!
+                </p>
+            </article>
+            <article>
+                <button class="btn" onclick="sair()">
+                    SAIR
+                </button>
+            </article>
+        </section>
+    </main>
+
+
+    <script>
+
+        var btn = document.querySelector('.btn')
+
+        function morte() {
+            function NewTab() {
+                window.open(
+                    "inferno.html", "_blank");
+            }
+            setTimeout(NewTab, 0)
+        }
+
+        function sair() {
+            var all = document.querySelector('body')
+            all.innerHTML = "<img src='img/tenor.gif' class='kiko'>"
+            setTimeout(morte, 5000)
+        }
+
+    </script>
+</body>
+
+</html>

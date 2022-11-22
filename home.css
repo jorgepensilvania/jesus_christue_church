@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Geforce;
+    src: url("GeForce-Bold.ttf");
+}
+*{
+    margin: auto;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgb(32, 0, 83), rgb(180, 0, 180));
+}
+header{
+    position: relative;
+    top: -12em;
+}
+nav{
+    position: relative;
+    bottom: -8em;
+    left: 3em;
+    max-width: 30%;
+} 
+#fundo{
+}
+#logo{
+    position: absolute;
+    max-width: 50%;
+    top: 45em;
+    left: 35em;
+}
+.smoke1{
+    width: 75em;
+    position: fixed;
+    bottom: -5em;
+    left: -30em;
+    z-index: 10;
+    opacity: 70%;
+}
+.smoke2{
+    width: 75em;
+    position: fixed;
+    bottom: -5em;
+    right: -35em;
+    
+    z-index: 11;
+    opacity: 70%;
+}
+p{
+    position: relative;
+    left: 0;
+    text-align: center;
+    margin: 5em;
+    font-family: Geforce;
+    color: white;
+    font-size: 20px;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    font-family: Geforce;
+    font-size: 40px;
+    padding-right: 1.5em;
+}
+a:hover{
+    color: aliceblue;
+}
+a:active{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  aside{
+    background-image: url(img/matue-pelado.gif);
+    background-repeat: repeat;
+    background-size: 50px;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    top: 0;
+    z-index: 0;
+    opacity: 50%;
+  }
+  .aside1{
+    left: 0%;
+  }
+  .aside2{
+    right: -5%;
+  }
+  audio{
+    margin-left: 700px;
+    display: none;
+  }
+  .djonga{
+    margin-left: 50%;
+  }

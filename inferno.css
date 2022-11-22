@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(191, 40, 40);
+}
+.fogo{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 0;
+}
+.txt{
+    color: white;
+    font-size: 10em;
+    text-align: center;
+    z-index: 10;
+    position: fixed;
+    top: 1em;
+    left: 1.2em;
+}

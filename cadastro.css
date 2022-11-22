@@ -1,0 +1,37 @@
+* {
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+body {
+    background-color: brown;
+}
+
+.img01 {
+    position: fixed;
+    height: 100%;
+    left: -15em;
+    top: 1em;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.img02 {
+    position: fixed;
+    height: 100%;
+    top: 1em;
+    right: -15em;
+}
+
+button {
+    background-color: blueviolet;
+    color: greenyellow;
+    margin: 30px;
+}
+
+#submit {
+    background-color: blueviolet;
+    color: greenyellow;
+    cursor: pointer;
+}

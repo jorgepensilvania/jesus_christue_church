@@ -1,0 +1,19 @@
+* {
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+li{
+    text-align: left;
+}
+img {
+    max-width: 100%;
+}
+
+button {
+    max-width: 50%;
+    border: none;
+    float: left;
+}
+.disco{
+}
